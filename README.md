@@ -1,12 +1,37 @@
-# React + Vite
+# Currency Converter React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple currency converter built with React.  
+It converts an amount from one currency to another using the [exchangerate.host](https://exchangerate.host) API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Convert any amount between two currencies.
+- Supports all currency codes in uppercase or lowercase.
+- Simple and clean user interface.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Clone this repo:   
+git clone https://github.com/MAHIMA-0/currency-converter.git
+
+Go to the project folder:
+cd your-repo
+
+Install dependencies:
+npm install
+
+Start the app:
+npm start
+
+Enter the amount to convert.
+
+Enter the currency code to convert from (e.g., USD).
+
+Enter the currency code to convert to (e.g., EUR).
+
+Click the CLICK here button to get the converted amount.
+
+Technologies Used
+React (with hooks)
+
+exchangerate.host API for currency conversion
